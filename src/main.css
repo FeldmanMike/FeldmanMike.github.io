@@ -25,7 +25,8 @@ h1, h2, h3, h4, h5 {
   color: #5E5E5E;
   font-size: 25px;
   font-style: normal;
-  font-weight:525;
+  /* font-weight:525; */
+  font-weight: bold;
   align-self: center;
 }
 
