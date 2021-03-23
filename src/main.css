@@ -115,6 +115,7 @@ h1, h2, h3, h4, h5 {
   justify-content: space-around;
   align-items: center;
   padding-bottom: 25px;
+  max-width: 1000px;
 }
 
 
@@ -136,6 +137,7 @@ h1, h2, h3, h4, h5 {
 .item2{
   margin: 1em 1em 1em 1em;
   align-self: center;
+
 }
 
 .project_intro_container{
