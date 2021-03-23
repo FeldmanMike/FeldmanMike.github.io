@@ -1,0 +1,151 @@
+body, html {
+    /*
+  The default html interpertation adds margin and padding to the basic elements
+  So it can be logically helpful to remove them from the beginning!
+  */
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    text-transform: uppercase;
+}
+
+#header {
+  position: relative;
+  height: 75px;
+  border-bottom-color: #000080;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+#header_text{
+  color: #5E5E5E;
+  font-size: 25px;
+  font-style: normal;
+  font-weight:525;
+  align-self: center;
+}
+
+#header_text, #greetings_text, #body_text, #project_text{
+  font-family: Helvetica, sans-serif;
+}
+
+#body_text, #project_desc{
+  color: #5E5E5E;
+}
+
+#greetings_text{
+  font-size: 32px
+}
+
+#body_text{
+  font-size: 19px;
+  line-height: 25px;
+  color: #5E5E5E;
+}
+
+#project_title{
+  font-size: 22px;
+  line-height: 20px;
+}
+
+#project_desc{
+  font-size: 18px;
+}
+
+.header_container {
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  justify-content: space-between;
+  padding-left: 25px;
+}
+
+.name_container {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: flex-start;
+  /* margin-left: 15% */
+}
+
+
+.icon_container {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: flex-end;
+  /* margin-right: 17% */
+  padding-right: 30px
+}
+
+.body_container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 50px;
+}
+
+.aboutme_container{
+  display:flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 25px;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: #7e7e7e;
+
+}
+
+.project_parent_container{
+  width:992px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  padding-top: 25px
+}
+
+.item1{
+  margin: 1em 1em 1em 1em;
+}
+
+.item2{
+  margin: 1em 1em 1em 1em;
+}
+
+.project_intro_container{
+  display:flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.project_container{
+  display:flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  padding-top: 45px;
+}
+
+.project_child{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+footer {
+   /* background-color: #f5f5f5; */
+   position: relative;
+   vertical-align: text-bottom;
+   top: 0px;
+   bottom: 0px;
+   left: 0px;
+   right: 0px;
+   width: 100%;
+   height: 100px;
+   margin-bottom: 0px;
+}
