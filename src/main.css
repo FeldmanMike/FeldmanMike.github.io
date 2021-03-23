@@ -33,8 +33,13 @@ h1, h2, h3, h4, h5 {
   font-family: Helvetica, sans-serif;
 }
 
-#body_text, #project_desc{
+#body_text, #project_desc, #project_collab{
   color: #5E5E5E;
+}
+
+#project_collab{
+  font-style: italic;
+  font-size: 15px;
 }
 
 #greetings_text{
@@ -61,7 +66,10 @@ h1, h2, h3, h4, h5 {
   flex-flow: row;
   align-content: center;
   justify-content: space-between;
+  /* justify-content: space-around; */
   padding-left: 25px;
+  /* margin-left: 10%;
+  margin-right: 10% */
 }
 
 .name_container {
@@ -82,12 +90,22 @@ h1, h2, h3, h4, h5 {
   padding-right: 30px
 }
 
-.body_container {
+.body_container, .body_container_2 {
   display: flex;
   flex-flow: column;
   align-items: center;
-  justify-content: flex-start;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.body_container {
+  align-items: center;
   padding-top: 50px;
+  justify-content: flex-start;
+}
+
+.body_container_2 {
+  justify-content: center;
 }
 
 .aboutme_container{
@@ -102,7 +120,8 @@ h1, h2, h3, h4, h5 {
 
 }
 
-.project_parent_container{
+
+#projects{
   width:992px;
   display: flex;
   flex-flow: column;
