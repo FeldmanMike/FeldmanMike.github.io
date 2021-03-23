@@ -115,10 +115,6 @@ h1, h2, h3, h4, h5 {
   justify-content: space-around;
   align-items: center;
   padding-bottom: 25px;
-  border-bottom-style: solid;
-  border-bottom-width: thin;
-  border-bottom-color: #7e7e7e;
-
 }
 
 
@@ -127,7 +123,10 @@ h1, h2, h3, h4, h5 {
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
-  padding-top: 25px
+  padding-top: 25px;
+  border-top-style: solid;
+  border-top-width: thin;
+  border-top-color: #7e7e7e;
 }
 
 .item1{
