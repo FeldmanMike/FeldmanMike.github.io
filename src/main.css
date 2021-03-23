@@ -135,6 +135,7 @@ h1, h2, h3, h4, h5 {
 
 .item2{
   margin: 1em 1em 1em 1em;
+  align-self: center;
 }
 
 .project_intro_container{
